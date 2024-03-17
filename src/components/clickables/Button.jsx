@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 
 const Button = ({ children, size, onClick, to, colour, outlined }) => {
+  const navigate = useNavigate();
   const getColour = () => {
     switch (colour) {
       case "primary":
@@ -44,7 +46,7 @@ const Button = ({ children, size, onClick, to, colour, outlined }) => {
 
   return (
     <button
-      onClick={onClick}
+      onClick={(e) => to ? navigate(to) : onClick(e)}
       className={`inline-block transition-colors ${getColour()} ${getDimensions()} rounded-full`}>
       {children}
     </button>

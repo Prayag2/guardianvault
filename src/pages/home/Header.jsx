@@ -16,7 +16,7 @@ const Header = ({className}) => {
         </div>
         <img src="/icons/menu.svg" alt="≡" className="text-4xl h-9 text-text-50 md:hidden cursor-pointer" />
         <div className="text-right space-x-6 hidden md:block">
-          <Link to="/" className="text-text-50">Pricing</Link>
+          <a href="#pricing-section" className="text-text-50">Pricing</a>
           <Link to="/" className="text-text-50">Help</Link>
           <Button to="/" outlined colour="background">Get Started</Button>
         </div>

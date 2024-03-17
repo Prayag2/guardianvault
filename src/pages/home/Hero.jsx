@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="flex justify-center flex-wrap gap-6 lg:justify-start">
               <div>
                 <p className="text-text mb-3">Are You an Individual?</p>
-                <Button colour="primary" outlined>
+                <Button to="/signup" colour="primary" outlined>
                   Get Started
                 </Button>
               </div>

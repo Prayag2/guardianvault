@@ -1,18 +1,9 @@
-import Testimonial from "../components/Pricing";
+import React from 'react'
 
-const MyComponent = () => {
-  
-  const testimonialProps = {
-    message: "BASIC",
-    
-    pricing: 99, 
-    features: ["Feature 1", "Feature 2", "Feature 3"], 
-  };
+const Test = () => {
   return (
-    <div>
-     
-      <Testimonial {...testimonialProps} />
-    </div>
-  );
-};
-export default MyComponent;
+    <div>Test</div>
+  )
+}
+
+export default Test
