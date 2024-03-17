@@ -14,7 +14,7 @@ Guardian Vault, crafted by the dynamic team at Code $trikers, redefines digital 
 ## Testing
 1. Clone this repository
 ```
-git clone https://github.com/prayag2/guardian-vault
+git clone https://github.com/prayag2/guardianvault
 ```
 2. Install node dependencies
 ```
