@@ -11,6 +11,10 @@ Guardian Vault, crafted by the dynamic team at Code $trikers, redefines digital 
 <img src="/assets/hero-section.png" style="width: 100%">
 <img src="/assets/sign-up.png" style="width: 100%">
 
+## Deployment
+The website, though incomplete, is deployed on Google Cloud using Firebase-  
+https://guardian-vault-codestrikers.web.app/
+
 ## Testing
 1. Clone this repository
 ```
